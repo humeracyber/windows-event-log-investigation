@@ -103,7 +103,7 @@ windows-event-log-investigation/
 ## Screenshots
 
 ### Event ID 4624 - Service Logon
-![4624 service](screenshots/4624-logon-service.png)
+![4624 service](https://github.com/humeracyber/windows-event-log-investigation/blob/eb1a514f2a889bee0bf987d4fff2ad8ef054da76/screenshots/4624-logon-service.png)
 
 ### Event ID 4624 - Unlock
 ![4624 unlock](screenshots/4624-logon-unlock.png)
