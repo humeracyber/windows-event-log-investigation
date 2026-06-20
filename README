@@ -100,7 +100,16 @@ windows-event-log-investigation/
 
 
 ---
+## Screenshots
 
+### Event ID 4624 - Service Logon
+![4624 service](screenshots/4624-logon-service.png)
+
+### Event ID 4624 - Unlock
+![4624 unlock](screenshots/4624-logon-unlock.png)
+
+### Event ID 4634 - Logoff
+![4634](screenshots/4634-logoff.png)
 ## Author
 
 *Humera*
