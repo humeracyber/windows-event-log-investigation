@@ -1,0 +1,108 @@
+# Windows Event Log Investigation
+
+## Project Overview
+
+This project demonstrates the investigation of Windows Security Event Logs using Windows Event Viewer. The objective is to understand how Security Operations Center (SOC) analysts monitor authentication events, user activities, process creation, and administrative actions to identify normal and potentially suspicious behavior.
+
+---
+
+## Objectives
+
+- Understand Windows Security Event Logs
+- Investigate authentication events
+- Analyze user and system activities
+- Learn common Windows Event IDs used by SOC Analysts
+- Document findings in a professional manner
+
+---
+
+## Tools Used
+
+- Windows 11
+- Windows Event Viewer
+- Security Event Logs
+
+---
+
+## Event IDs Covered
+
+| Event ID | Description | Status |
+|----------|-------------|--------|
+| 4624 | Successful Logon | ✅ Investigated |
+| 4625 | Failed Logon | ❌ Not Present |
+| 4634 | Logoff | ✅ Investigated |
+| 4648 | Logon with Explicit Credentials | ⏳ To Investigate |
+| 4672 | Special Privileges Assigned | ⏳ To Investigate |
+| 4688 | Process Creation | ⏳ To Investigate |
+| 4689 | Process Terminated | ⏳ To Investigate |
+| 4720 | User Account Created | ❌ Not Present |
+| 4726 | User Account Deleted | ❌ Not Present |
+| 1102 | Security Log Cleared | ❌ Not Present |
+
+---
+
+## Investigation Summary
+
+### Event ID 4624
+- Successful logon observed.
+- Logon Type 5 (Service Logon).
+- Logon Type 7 (Unlock Workstation).
+- Activity appeared legitimate.
+
+### Event ID 4634
+- User logoff recorded.
+- Logon Type 2 (Interactive Logoff).
+- Normal user activity observed.
+
+---
+
+## Key Findings
+
+- Successfully navigated Windows Security Logs.
+- Identified different logon types and their meanings.
+- Distinguished between service logons and user logons.
+- Understood how Windows records authentication events.
+- Practiced documenting security investigations.
+
+---
+
+## Skills Demonstrated
+
+- Windows Event Log Analysis
+- Security Monitoring
+- Authentication Analysis
+- Windows Security Investigation
+- Basic Incident Analysis
+- SOC Analyst Fundamentals
+
+---
+
+## Future Improvements
+
+- Import Windows logs into Splunk.
+- Detect failed logon attempts.
+- Create SPL queries.
+- Build a Splunk dashboard.
+- Correlate multiple Windows Event IDs.
+
+---
+
+## Repository Structure
+
+
+windows-event-log-investigation/
+│
+├── README.md
+├── investigation-report.md
+├── findings.md
+├── event-id-reference.md
+└── screenshots/
+
+
+---
+
+## Author
+
+*Humera*
+
+Aspiring SOC Analyst | Learning Windows Security Monitoring and Splunk
